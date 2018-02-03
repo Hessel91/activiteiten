@@ -1,0 +1,20 @@
+plugin:
+    name: 'hessel.activiteiten::lang.plugin.name'
+    description: 'hessel.activiteiten::lang.plugin.description'
+    author: Hessel
+    icon: oc-icon-group
+    homepage: ''
+navigation:
+    activiteiten:
+        label: 'hessel.activiteiten::lang.plugin.name'
+        url: hessel/activiteiten/items
+        icon: icon-group
+        sideMenu:
+            activiteiten-overzicht:
+                label: 'hessel.activiteiten::lang.plugin.name'
+                url: hessel/activiteiten/items
+                icon: icon-futbol-o
+            category:
+                label: Categoríe
+                url: hessel/activiteiten/categories
+                icon: icon-bookmark

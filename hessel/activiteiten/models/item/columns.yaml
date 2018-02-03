@@ -1,0 +1,17 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+    title:
+        label: Titel
+        type: text
+        searchable: true
+    category_id:
+        label: Categorie
+        type: text
+        searchable: true
+        sortable: true
+    is_approved:
+        label: Gepubliceerd
+        type: switch

@@ -1,0 +1,11 @@
+name: Items
+modelClass: Hessel\Activiteiten\Models\Item
+form: $/hessel/activiteiten/models/item/fields.yaml
+defaultRedirect: hessel/activiteiten/items
+create:
+    redirect: 'hessel/activiteiten/items/update/:id'
+    redirectClose: hessel/activiteiten/items
+update:
+    redirect: hessel/activiteiten/items
+    redirectClose: hessel/activiteiten/items
+preview: {  }

@@ -1,0 +1,58 @@
+fields:
+    title:
+        label: Titel
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    category:
+        label: Category
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        required: 1
+        type: relation
+    tijd:
+        label: Tijd
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    afstand:
+        label: Afstand
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    link:
+        label: Url
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    is_approved:
+        label: Gepubliceerd
+        span: auto
+        type: switch
+    image:
+        label: Afbeelding
+        oc.commentPosition: ''
+        mode: image
+        span: auto
+        required: 1
+        type: mediafinder
+tabs:
+    fields:
+        intro:
+            label: Intro
+            size: small
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: textarea
+            tab: 'Tab 1'
+        description:
+            label: Beschrijving
+            size: small
+            oc.commentPosition: ''
+            span: auto
+            type: textarea
+            tab: 'Tab 1'

@@ -1,0 +1,13 @@
+fields:
+    id:
+        label: ID
+        oc.commentPosition: ''
+        span: full
+        disabled: 1
+        hidden: 1
+        type: text
+    title:
+        label: Category
+        oc.commentPosition: ''
+        span: full
+        type: text

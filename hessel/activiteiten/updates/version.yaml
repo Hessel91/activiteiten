@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table hessel_activiteiten_category'
+    - builder_table_create_hessel_activiteiten_category.php
+1.0.3:
+    - 'Created table hessel_activiteiten_items'
+    - builder_table_create_hessel_activiteiten_items.php
+1.0.4:
+    - 'Updated table hessel_activiteiten_items'
+    - builder_table_update_hessel_activiteiten_items.php
+1.0.5:
+    - 'Updated table hessel_activiteiten_items'
+    - builder_table_update_hessel_activiteiten_items_2.php

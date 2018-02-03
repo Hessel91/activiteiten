@@ -1,0 +1,11 @@
+name: Categories
+modelClass: Hessel\Activiteiten\Models\Category
+form: $/hessel/activiteiten/models/category/fields.yaml
+defaultRedirect: hessel/activiteiten/categories
+create:
+    redirect: 'hessel/activiteiten/categories/update/:id'
+    redirectClose: hessel/activiteiten/categories
+update:
+    redirect: hessel/activiteiten/categories
+    redirectClose: hessel/activiteiten/categories
+preview: {  }
